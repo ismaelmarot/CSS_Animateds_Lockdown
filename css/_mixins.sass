@@ -1,0 +1,9 @@
+/*===== MIXINS =====*/
+@mixin flex-row
+	display: flex
+	justify-content: center
+	align-items: center
+
+@mixin flex-column
+	@include flex-row
+	flex-direction: column	
